@@ -1,0 +1,23 @@
+alias sb="stack build --fast"
+alias si="stack install --fast"
+alias st="stack test --fast"
+
+alias ht="hasktags --ctags ."
+
+alias gst="git status"
+alias gb="git branch"
+alias gch="git checkout"
+alias gdf="git diff"
+alias gsh="git stash"
+alias gsha="git stash apply"
+alias gcm="git commit -m"
+alias gpsh='[[ -z $(git config "branch.$(git symbolic-ref --short HEAD).merge") ]] && git push -u origin $(git symbolic-ref --short HEAD) || git push'
+alias gpl="git pull"
+alias gm="git merge"
+alias ga="git add"
+alias gap="git add -p"
+alias grst="git reset"
+alias grbs="git rebase"
+alias gl="git log"
+alias gchb="git checkout -b"
+
