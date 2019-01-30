@@ -1,5 +1,10 @@
-source .profile
-source .aliases
+
+SCRIPTPATH=${BASH_SOURCE%/*}
+
+echo ${SCRIPTPATH}
+
+source ${SCRIPTPATH}/profile
+source ${SCRIPTPATH}/aliases
 
 
 # Opens the github page for the current git repository in your browser
