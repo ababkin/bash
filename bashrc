@@ -1,11 +1,8 @@
 
-SCRIPTPATH=${BASH_SOURCE%/*}
+LOCAL_PATH="${BASH_SOURCE%/*}"
 
-echo ${SCRIPTPATH}
-
-source ${SCRIPTPATH}/profile
-source ${SCRIPTPATH}/aliases
-
+source ${LOCAL_PATH}/profile
+source ${LOCAL_PATH}/aliases
 
 # Opens the github page for the current git repository in your browser
 # git@github.com:jasonneylon/dotfiles.git
