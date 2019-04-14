@@ -40,5 +40,5 @@ if [ -f '/Users/ababkin/google-cloud-sdk/completion.bash.inc' ]; then source '/U
 
 # Put GHC on the path globally
 GHC_PATH=`stack path | grep compiler-bin | sed -e 's/compiler-bin: //'`
-export PATH="$GHC_PATH:$PATH"
+export PATH="$GHC_PATH:$PATH:~/.emacs.d/bin"
 
